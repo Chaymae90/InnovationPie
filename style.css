@@ -16,7 +16,9 @@ section {
   line-height: 1.2em;
   background-color: #0A0B11;
 }
-
+iframe {
+  min-height: 400px;
+}
 .logos img {
   padding: 1%;
   width: 13%;
@@ -238,9 +240,8 @@ letter-spacing: 0;
 
 .social-media {
   display: block;
-  width: 100%;
+  width: 60%;
   position: absolute;
-  bottom: 12%;
   text-align: center;
   margin: 0;
 }
@@ -250,7 +251,13 @@ letter-spacing: 0;
   padding-left: 1%;
   display: inline-block;
   margin: 0;
-  width: 15%;
+  width: 5%;
+}
+testmedia {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: block;
+  bottom: 0;
 }
 
 
